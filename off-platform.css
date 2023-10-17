@@ -1,0 +1,128 @@
+body{
+  background-color: black;
+    margin: 0 auto;
+    color: seashell;
+    text-align: center;
+}
+
+nav{
+  display: flex;
+  height:69px;
+  border-bottom: 1px solid seashell;
+  width:100%;
+  position: sticky;
+  top:0;
+  align-items:center;
+  justify-content: space-between;
+  background-color:rgba(0,0,0,0.8);
+}
+
+nav ul li {
+  display: inline-flex;
+  text-decoration: underline;
+}
+
+nav a:active, nav a:hover, nav a:visited, nav a:link{
+  color: white;
+}
+
+nav img{
+  height: 50px;
+  left:10px;
+}
+
+header {
+  background-image:url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1krqpjb*_ga*ODI2MjYwNzc0MC4xNjkzNDE0NDY1*_ga_3LRZM6TM9L*MTY5NzM0NjEwMS4zOS4xLjE2OTczNDc0NTQuNjAuMC4w);
+  max-width: 1200px;
+  height:700px;
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  background-color:black;
+}
+#mission{
+ width:1200px;
+ height:max-content;
+ background-color:black;
+}
+
+
+#tea {
+  
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  max-width:1000px;
+  align-content:center;
+  flex-wrap:wrap;
+  background-color:black;
+}
+
+#tea .img{
+  display:flex;
+  flex-wrap:wrap;
+  padding:10px;
+  align-items:center;
+  justify-content: center;
+}
+
+.img figure{
+  margin: 10px;
+}
+.img figcaption{
+  margin-top:10px;
+}
+
+#tea img{
+  width:300px;
+  height:200px;
+  
+}
+
+
+#location {
+  background-image:url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1asdjj1*_ga*ODI2MjYwNzc0MC4xNjkzNDE0NDY1*_ga_3LRZM6TM9L*MTY5NzM0NjEwMS4zOS4xLjE2OTczNDc0NTQuNjAuMC4w);
+  max-width: 1200px;
+  height:500px;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+}
+
+#location ul{
+  list-style-type: none;
+  
+
+}
+.location {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap:wrap;
+  
+}
+.location ul{
+background-color:black;
+background-size:cover;
+width: 300px;
+margin: 15px 20px 15px 20px;
+padding:10px;
+}
+
+footer .center{
+  text-align:center;
+  justify-content:center;
+}
+
+footer p {
+  text-align:left;
+}
+
+
